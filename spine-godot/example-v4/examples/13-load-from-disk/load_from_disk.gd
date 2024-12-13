@@ -3,11 +3,11 @@ extends Node2D
 func _ready():
 	# Load the skeleton file
 	var skeleton_file_res = SpineSkeletonFileResource.new();
-	skeleton_file_res.load_from_file("/Users/badlogic/workspaces/spine-runtimes/examples/coin/export/coin-pro.skel");
+	skeleton_file_res.load_from_file("C:/Users/ffdd270/git/godot-spine/spine-runtimes/examples/coin/export/coin-pro.skel");
 	
 	# Load the atlas file
 	var atlas_res = SpineAtlasResource.new();
-	atlas_res.load_from_atlas_file("/Users/badlogic/workspaces/spine-runtimes/examples/coin/export/coin.atlas");
+	atlas_res.load_from_atlas_file("C:/Users/ffdd270/git/godot-spine/spine-runtimes/examples/coin/export/coin.atlas");
 	
 	# Create a skeleton data resource, you can share this across multiple sprites
 	var skeleton_data_res = SpineSkeletonDataResource.new();

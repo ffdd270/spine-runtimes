@@ -1,9 +1,9 @@
-[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=2]
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://b5offdyc3huqr"]
 
-[ext_resource path="res://assets/raptor/raptor.atlas" type="SpineAtlasResource" id=1]
-[ext_resource path="res://assets/raptor/raptor-pro.skel" type="SpineSkeletonFileResource" id=2]
+[ext_resource type="SpineAtlasResource" uid="uid://dhtyf5vltqsjg" path="res://assets/raptor/raptor.atlas" id="1"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://dor8huwld4f84" path="res://assets/raptor/raptor-pro.skel" id="2"]
 
 [resource]
-atlas_res = ExtResource( 1 )
-skeleton_file_res = ExtResource( 2 )
+atlas_res = ExtResource("1")
+skeleton_file_res = ExtResource("2")
 default_mix = 0.2

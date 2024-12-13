@@ -2,9 +2,9 @@
 
 [ext_resource type="SpineSkeletonDataResource" uid="uid://cb6rn6vonqbx0" path="res://assets/spineboy/spineboy-data-res.tres" id="1"]
 [ext_resource type="Script" path="res://examples/08-animation-player/animation-player.gd" id="2"]
-[ext_resource type="SpineSkeletonDataResource" path="res://assets/raptor/raptor-data.tres" id="3"]
+[ext_resource type="SpineSkeletonDataResource" uid="uid://b5offdyc3huqr" path="res://assets/raptor/raptor-data.tres" id="3"]
 
-[sub_resource type="Animation" id="Animation_ya8q5"]
+[sub_resource type="Animation" id="Animation_4tukv"]
 resource_name = "aim_looped"
 length = 0.5
 tracks/0/type = "value"
@@ -16,7 +16,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["aim"]
 }
 tracks/1/type = "value"
@@ -28,11 +28,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_jwma2"]
+[sub_resource type="Animation" id="Animation_j43ts"]
 resource_name = "aim"
 length = 0.5
 tracks/0/type = "value"
@@ -44,7 +44,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["aim"]
 }
 tracks/1/type = "value"
@@ -56,11 +56,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_w7ca1"]
+[sub_resource type="Animation" id="Animation_gwgsq"]
 resource_name = "death_looped"
 length = 4.9333
 tracks/0/type = "value"
@@ -72,7 +72,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["death"]
 }
 tracks/1/type = "value"
@@ -84,11 +84,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_8yghe"]
+[sub_resource type="Animation" id="Animation_m46uj"]
 resource_name = "death"
 length = 4.9333
 tracks/0/type = "value"
@@ -100,7 +100,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["death"]
 }
 tracks/1/type = "value"
@@ -112,11 +112,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_nmg1i"]
+[sub_resource type="Animation" id="Animation_k0xky"]
 resource_name = "hoverboard_looped"
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -127,7 +127,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["hoverboard"]
 }
 tracks/1/type = "value"
@@ -139,11 +139,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_yt7d3"]
+[sub_resource type="Animation" id="Animation_p2s0g"]
 resource_name = "hoverboard"
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -154,7 +154,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["hoverboard"]
 }
 tracks/1/type = "value"
@@ -166,11 +166,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_jxmix"]
+[sub_resource type="Animation" id="Animation_3hyfu"]
 resource_name = "idle_looped"
 length = 1.6667
 tracks/0/type = "value"
@@ -182,7 +182,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["idle"]
 }
 tracks/1/type = "value"
@@ -194,11 +194,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_0wpy1"]
+[sub_resource type="Animation" id="Animation_40rvf"]
 resource_name = "idle"
 length = 1.6667
 tracks/0/type = "value"
@@ -210,7 +210,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["idle"]
 }
 tracks/1/type = "value"
@@ -222,11 +222,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_32u7c"]
+[sub_resource type="Animation" id="Animation_gnvn8"]
 resource_name = "idle-turn_looped"
 length = 0.2667
 tracks/0/type = "value"
@@ -238,7 +238,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["idle-turn"]
 }
 tracks/1/type = "value"
@@ -250,11 +250,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_peofs"]
+[sub_resource type="Animation" id="Animation_36267"]
 resource_name = "idle-turn"
 length = 0.2667
 tracks/0/type = "value"
@@ -266,7 +266,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["idle-turn"]
 }
 tracks/1/type = "value"
@@ -278,11 +278,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_c76y7"]
+[sub_resource type="Animation" id="Animation_5l2dt"]
 resource_name = "jump_looped"
 length = 1.3333
 tracks/0/type = "value"
@@ -294,7 +294,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["jump"]
 }
 tracks/1/type = "value"
@@ -306,11 +306,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_c6xd0"]
+[sub_resource type="Animation" id="Animation_unfv6"]
 resource_name = "jump"
 length = 1.3333
 tracks/0/type = "value"
@@ -322,7 +322,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["jump"]
 }
 tracks/1/type = "value"
@@ -334,11 +334,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_7gvmc"]
+[sub_resource type="Animation" id="Animation_kfo27"]
 resource_name = "portal_looped"
 length = 3.1667
 tracks/0/type = "value"
@@ -350,7 +350,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["portal"]
 }
 tracks/1/type = "value"
@@ -362,11 +362,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_imy13"]
+[sub_resource type="Animation" id="Animation_yp3wa"]
 resource_name = "portal"
 length = 3.1667
 tracks/0/type = "value"
@@ -378,7 +378,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["portal"]
 }
 tracks/1/type = "value"
@@ -390,11 +390,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_bimjo"]
+[sub_resource type="Animation" id="Animation_t4q73"]
 resource_name = "run_looped"
 length = 0.6667
 tracks/0/type = "value"
@@ -406,7 +406,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["run"]
 }
 tracks/1/type = "value"
@@ -418,11 +418,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_h7sw4"]
+[sub_resource type="Animation" id="Animation_rd3nd"]
 resource_name = "run"
 length = 0.6667
 tracks/0/type = "value"
@@ -434,7 +434,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["run"]
 }
 tracks/1/type = "value"
@@ -446,11 +446,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_1coy7"]
+[sub_resource type="Animation" id="Animation_57hc7"]
 resource_name = "run-to-idle_looped"
 length = 0.2667
 tracks/0/type = "value"
@@ -462,7 +462,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["run-to-idle"]
 }
 tracks/1/type = "value"
@@ -474,11 +474,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_dmi2a"]
+[sub_resource type="Animation" id="Animation_1y5yt"]
 resource_name = "run-to-idle"
 length = 0.2667
 tracks/0/type = "value"
@@ -490,7 +490,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["run-to-idle"]
 }
 tracks/1/type = "value"
@@ -502,11 +502,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_xs77v"]
+[sub_resource type="Animation" id="Animation_j2wrp"]
 resource_name = "shoot_looped"
 length = 0.6333
 tracks/0/type = "value"
@@ -518,7 +518,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["shoot"]
 }
 tracks/1/type = "value"
@@ -530,11 +530,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_y8won"]
+[sub_resource type="Animation" id="Animation_2f3w3"]
 resource_name = "shoot"
 length = 0.6333
 tracks/0/type = "value"
@@ -546,7 +546,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["shoot"]
 }
 tracks/1/type = "value"
@@ -558,11 +558,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_yjxx6"]
+[sub_resource type="Animation" id="Animation_ydldc"]
 resource_name = "walk_looped"
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -573,7 +573,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["walk"]
 }
 tracks/1/type = "value"
@@ -585,11 +585,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_hw3of"]
+[sub_resource type="Animation" id="Animation_prm22"]
 resource_name = "walk"
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -600,7 +600,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["walk"]
 }
 tracks/1/type = "value"
@@ -612,11 +612,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_ohj1m"]
+[sub_resource type="Animation" id="Animation_7c75n"]
 resource_name = "RESET"
 length = 0.5
 tracks/0/type = "value"
@@ -628,7 +628,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [""]
 }
 tracks/1/type = "value"
@@ -640,39 +640,39 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_f22jo"]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_36qvh"]
 _data = {
-"-- Empty --": SubResource("Animation_ohj1m"),
-"RESET": SubResource("Animation_ohj1m"),
-"aim": SubResource("Animation_jwma2"),
-"aim_looped": SubResource("Animation_ya8q5"),
-"death": SubResource("Animation_8yghe"),
-"death_looped": SubResource("Animation_w7ca1"),
-"hoverboard": SubResource("Animation_yt7d3"),
-"hoverboard_looped": SubResource("Animation_nmg1i"),
-"idle": SubResource("Animation_0wpy1"),
-"idle-turn": SubResource("Animation_peofs"),
-"idle-turn_looped": SubResource("Animation_32u7c"),
-"idle_looped": SubResource("Animation_jxmix"),
-"jump": SubResource("Animation_c6xd0"),
-"jump_looped": SubResource("Animation_c76y7"),
-"portal": SubResource("Animation_imy13"),
-"portal_looped": SubResource("Animation_7gvmc"),
-"run": SubResource("Animation_h7sw4"),
-"run-to-idle": SubResource("Animation_dmi2a"),
-"run-to-idle_looped": SubResource("Animation_1coy7"),
-"run_looped": SubResource("Animation_bimjo"),
-"shoot": SubResource("Animation_y8won"),
-"shoot_looped": SubResource("Animation_xs77v"),
-"walk": SubResource("Animation_hw3of"),
-"walk_looped": SubResource("Animation_yjxx6")
+"-- Empty --": SubResource("Animation_7c75n"),
+"RESET": SubResource("Animation_7c75n"),
+"aim": SubResource("Animation_j43ts"),
+"aim_looped": SubResource("Animation_4tukv"),
+"death": SubResource("Animation_m46uj"),
+"death_looped": SubResource("Animation_gwgsq"),
+"hoverboard": SubResource("Animation_p2s0g"),
+"hoverboard_looped": SubResource("Animation_k0xky"),
+"idle": SubResource("Animation_40rvf"),
+"idle-turn": SubResource("Animation_36267"),
+"idle-turn_looped": SubResource("Animation_gnvn8"),
+"idle_looped": SubResource("Animation_3hyfu"),
+"jump": SubResource("Animation_unfv6"),
+"jump_looped": SubResource("Animation_5l2dt"),
+"portal": SubResource("Animation_yp3wa"),
+"portal_looped": SubResource("Animation_kfo27"),
+"run": SubResource("Animation_rd3nd"),
+"run-to-idle": SubResource("Animation_1y5yt"),
+"run-to-idle_looped": SubResource("Animation_57hc7"),
+"run_looped": SubResource("Animation_t4q73"),
+"shoot": SubResource("Animation_2f3w3"),
+"shoot_looped": SubResource("Animation_j2wrp"),
+"walk": SubResource("Animation_prm22"),
+"walk_looped": SubResource("Animation_ydldc")
 }
 
-[sub_resource type="Animation" id="Animation_p4e4e"]
+[sub_resource type="Animation" id="Animation_ogujg"]
 resource_name = "aim_looped"
 length = 0.5
 tracks/0/type = "value"
@@ -684,7 +684,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["aim"]
 }
 tracks/1/type = "value"
@@ -696,11 +696,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_lbp4s"]
+[sub_resource type="Animation" id="Animation_bpwi4"]
 resource_name = "aim"
 length = 0.5
 tracks/0/type = "value"
@@ -712,7 +712,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["aim"]
 }
 tracks/1/type = "value"
@@ -724,11 +724,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_yiks3"]
+[sub_resource type="Animation" id="Animation_o7r06"]
 resource_name = "death_looped"
 length = 4.9333
 tracks/0/type = "value"
@@ -740,7 +740,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["death"]
 }
 tracks/1/type = "value"
@@ -752,11 +752,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_gk4ed"]
+[sub_resource type="Animation" id="Animation_nnl6r"]
 resource_name = "death"
 length = 4.9333
 tracks/0/type = "value"
@@ -768,7 +768,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["death"]
 }
 tracks/1/type = "value"
@@ -780,11 +780,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_gyjo1"]
+[sub_resource type="Animation" id="Animation_atg21"]
 resource_name = "hoverboard_looped"
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -795,7 +795,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["hoverboard"]
 }
 tracks/1/type = "value"
@@ -807,11 +807,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_i1kj0"]
+[sub_resource type="Animation" id="Animation_v51jw"]
 resource_name = "hoverboard"
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -822,7 +822,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["hoverboard"]
 }
 tracks/1/type = "value"
@@ -834,11 +834,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_ps85s"]
+[sub_resource type="Animation" id="Animation_qv6gr"]
 resource_name = "idle_looped"
 length = 1.6667
 tracks/0/type = "value"
@@ -850,7 +850,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["idle"]
 }
 tracks/1/type = "value"
@@ -862,11 +862,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_irh4n"]
+[sub_resource type="Animation" id="Animation_4i5ty"]
 resource_name = "idle"
 length = 1.6667
 tracks/0/type = "value"
@@ -878,7 +878,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["idle"]
 }
 tracks/1/type = "value"
@@ -890,11 +890,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_0wj8f"]
+[sub_resource type="Animation" id="Animation_kqcr8"]
 resource_name = "idle-turn_looped"
 length = 0.2667
 tracks/0/type = "value"
@@ -906,7 +906,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["idle-turn"]
 }
 tracks/1/type = "value"
@@ -918,11 +918,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_2ypc8"]
+[sub_resource type="Animation" id="Animation_dkrpw"]
 resource_name = "idle-turn"
 length = 0.2667
 tracks/0/type = "value"
@@ -934,7 +934,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["idle-turn"]
 }
 tracks/1/type = "value"
@@ -946,11 +946,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_uq7ur"]
+[sub_resource type="Animation" id="Animation_lrf22"]
 resource_name = "jump_looped"
 length = 1.3333
 tracks/0/type = "value"
@@ -962,7 +962,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["jump"]
 }
 tracks/1/type = "value"
@@ -974,11 +974,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_8gx7t"]
+[sub_resource type="Animation" id="Animation_1iaab"]
 resource_name = "jump"
 length = 1.3333
 tracks/0/type = "value"
@@ -990,7 +990,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["jump"]
 }
 tracks/1/type = "value"
@@ -1002,11 +1002,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_3bvwh"]
+[sub_resource type="Animation" id="Animation_gghyb"]
 resource_name = "portal_looped"
 length = 3.1667
 tracks/0/type = "value"
@@ -1018,7 +1018,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["portal"]
 }
 tracks/1/type = "value"
@@ -1030,11 +1030,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_xdcah"]
+[sub_resource type="Animation" id="Animation_8mcwi"]
 resource_name = "portal"
 length = 3.1667
 tracks/0/type = "value"
@@ -1046,7 +1046,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["portal"]
 }
 tracks/1/type = "value"
@@ -1058,11 +1058,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_eorn5"]
+[sub_resource type="Animation" id="Animation_4bn5y"]
 resource_name = "run_looped"
 length = 0.6667
 tracks/0/type = "value"
@@ -1074,7 +1074,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["run"]
 }
 tracks/1/type = "value"
@@ -1086,11 +1086,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_c1k8k"]
+[sub_resource type="Animation" id="Animation_dswvv"]
 resource_name = "run"
 length = 0.6667
 tracks/0/type = "value"
@@ -1102,7 +1102,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["run"]
 }
 tracks/1/type = "value"
@@ -1114,11 +1114,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_rvxnn"]
+[sub_resource type="Animation" id="Animation_6a6iq"]
 resource_name = "run-to-idle_looped"
 length = 0.2667
 tracks/0/type = "value"
@@ -1130,7 +1130,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["run-to-idle"]
 }
 tracks/1/type = "value"
@@ -1142,11 +1142,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_16sa8"]
+[sub_resource type="Animation" id="Animation_kwwwn"]
 resource_name = "run-to-idle"
 length = 0.2667
 tracks/0/type = "value"
@@ -1158,7 +1158,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["run-to-idle"]
 }
 tracks/1/type = "value"
@@ -1170,11 +1170,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_0fi36"]
+[sub_resource type="Animation" id="Animation_6sweu"]
 resource_name = "shoot_looped"
 length = 0.6333
 tracks/0/type = "value"
@@ -1186,7 +1186,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["shoot"]
 }
 tracks/1/type = "value"
@@ -1198,11 +1198,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_ha1v2"]
+[sub_resource type="Animation" id="Animation_eaft3"]
 resource_name = "shoot"
 length = 0.6333
 tracks/0/type = "value"
@@ -1214,7 +1214,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["shoot"]
 }
 tracks/1/type = "value"
@@ -1226,11 +1226,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_6l3h0"]
+[sub_resource type="Animation" id="Animation_lchp4"]
 resource_name = "walk_looped"
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -1241,7 +1241,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["walk"]
 }
 tracks/1/type = "value"
@@ -1253,11 +1253,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_0lwew"]
+[sub_resource type="Animation" id="Animation_j8ncb"]
 resource_name = "walk"
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -1268,7 +1268,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["walk"]
 }
 tracks/1/type = "value"
@@ -1280,11 +1280,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_tvyh8"]
+[sub_resource type="Animation" id="Animation_7vfan"]
 resource_name = "RESET"
 length = 0.5
 tracks/0/type = "value"
@@ -1296,7 +1296,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [""]
 }
 tracks/1/type = "value"
@@ -1308,39 +1308,39 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_g0q76"]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_eqm1m"]
 _data = {
-"-- Empty --": SubResource("Animation_tvyh8"),
-"RESET": SubResource("Animation_tvyh8"),
-"aim": SubResource("Animation_lbp4s"),
-"aim_looped": SubResource("Animation_p4e4e"),
-"death": SubResource("Animation_gk4ed"),
-"death_looped": SubResource("Animation_yiks3"),
-"hoverboard": SubResource("Animation_i1kj0"),
-"hoverboard_looped": SubResource("Animation_gyjo1"),
-"idle": SubResource("Animation_irh4n"),
-"idle-turn": SubResource("Animation_2ypc8"),
-"idle-turn_looped": SubResource("Animation_0wj8f"),
-"idle_looped": SubResource("Animation_ps85s"),
-"jump": SubResource("Animation_8gx7t"),
-"jump_looped": SubResource("Animation_uq7ur"),
-"portal": SubResource("Animation_xdcah"),
-"portal_looped": SubResource("Animation_3bvwh"),
-"run": SubResource("Animation_c1k8k"),
-"run-to-idle": SubResource("Animation_16sa8"),
-"run-to-idle_looped": SubResource("Animation_rvxnn"),
-"run_looped": SubResource("Animation_eorn5"),
-"shoot": SubResource("Animation_ha1v2"),
-"shoot_looped": SubResource("Animation_0fi36"),
-"walk": SubResource("Animation_0lwew"),
-"walk_looped": SubResource("Animation_6l3h0")
+"-- Empty --": SubResource("Animation_7vfan"),
+"RESET": SubResource("Animation_7vfan"),
+"aim": SubResource("Animation_bpwi4"),
+"aim_looped": SubResource("Animation_ogujg"),
+"death": SubResource("Animation_nnl6r"),
+"death_looped": SubResource("Animation_o7r06"),
+"hoverboard": SubResource("Animation_v51jw"),
+"hoverboard_looped": SubResource("Animation_atg21"),
+"idle": SubResource("Animation_4i5ty"),
+"idle-turn": SubResource("Animation_dkrpw"),
+"idle-turn_looped": SubResource("Animation_kqcr8"),
+"idle_looped": SubResource("Animation_qv6gr"),
+"jump": SubResource("Animation_1iaab"),
+"jump_looped": SubResource("Animation_lrf22"),
+"portal": SubResource("Animation_8mcwi"),
+"portal_looped": SubResource("Animation_gghyb"),
+"run": SubResource("Animation_dswvv"),
+"run-to-idle": SubResource("Animation_kwwwn"),
+"run-to-idle_looped": SubResource("Animation_6a6iq"),
+"run_looped": SubResource("Animation_4bn5y"),
+"shoot": SubResource("Animation_eaft3"),
+"shoot_looped": SubResource("Animation_6sweu"),
+"walk": SubResource("Animation_j8ncb"),
+"walk_looped": SubResource("Animation_lchp4")
 }
 
-[sub_resource type="Animation" id="Animation_wviji"]
+[sub_resource type="Animation" id="Animation_chpxy"]
 resource_name = "gun-grab_looped"
 length = 0.666667
 tracks/0/type = "value"
@@ -1352,7 +1352,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["gun-grab"]
 }
 tracks/1/type = "value"
@@ -1364,11 +1364,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_jk22l"]
+[sub_resource type="Animation" id="Animation_i4yt4"]
 resource_name = "gun-grab"
 length = 0.666667
 tracks/0/type = "value"
@@ -1380,7 +1380,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["gun-grab"]
 }
 tracks/1/type = "value"
@@ -1392,11 +1392,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_5bwsl"]
+[sub_resource type="Animation" id="Animation_62e8h"]
 resource_name = "gun-holster_looped"
 length = 0.666667
 tracks/0/type = "value"
@@ -1408,7 +1408,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["gun-holster"]
 }
 tracks/1/type = "value"
@@ -1420,11 +1420,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_d8qde"]
+[sub_resource type="Animation" id="Animation_7hokq"]
 resource_name = "gun-holster"
 length = 0.666667
 tracks/0/type = "value"
@@ -1436,7 +1436,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["gun-holster"]
 }
 tracks/1/type = "value"
@@ -1448,11 +1448,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_fbbiq"]
+[sub_resource type="Animation" id="Animation_2b04f"]
 resource_name = "jump_looped"
 length = 1.53333
 tracks/0/type = "value"
@@ -1464,7 +1464,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["jump"]
 }
 tracks/1/type = "value"
@@ -1476,11 +1476,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_h07lm"]
+[sub_resource type="Animation" id="Animation_gq7wq"]
 resource_name = "jump"
 length = 1.53333
 tracks/0/type = "value"
@@ -1492,7 +1492,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["jump"]
 }
 tracks/1/type = "value"
@@ -1504,11 +1504,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_unpp6"]
+[sub_resource type="Animation" id="Animation_yb7qp"]
 resource_name = "roar_looped"
 length = 2.13333
 tracks/0/type = "value"
@@ -1520,7 +1520,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["roar"]
 }
 tracks/1/type = "value"
@@ -1532,11 +1532,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_0fp7u"]
+[sub_resource type="Animation" id="Animation_uf8fr"]
 resource_name = "roar"
 length = 2.13333
 tracks/0/type = "value"
@@ -1548,7 +1548,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["roar"]
 }
 tracks/1/type = "value"
@@ -1560,11 +1560,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_0son1"]
+[sub_resource type="Animation" id="Animation_jqy6a"]
 resource_name = "walk_looped"
 length = 1.26667
 tracks/0/type = "value"
@@ -1576,7 +1576,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["walk"]
 }
 tracks/1/type = "value"
@@ -1588,11 +1588,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_2qibt"]
+[sub_resource type="Animation" id="Animation_p1ylt"]
 resource_name = "walk"
 length = 1.26667
 tracks/0/type = "value"
@@ -1604,7 +1604,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": ["walk"]
 }
 tracks/1/type = "value"
@@ -1616,11 +1616,11 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="Animation" id="Animation_ndgwo"]
+[sub_resource type="Animation" id="Animation_rutl8"]
 resource_name = "RESET"
 length = 0.5
 tracks/0/type = "value"
@@ -1632,7 +1632,7 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [""]
 }
 tracks/1/type = "value"
@@ -1644,24 +1644,24 @@ tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
+"update": 1,
 "values": [false]
 }
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_ojoi5"]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_g30c7"]
 _data = {
-"-- Empty --": SubResource("Animation_ndgwo"),
-"RESET": SubResource("Animation_ndgwo"),
-"gun-grab": SubResource("Animation_jk22l"),
-"gun-grab_looped": SubResource("Animation_wviji"),
-"gun-holster": SubResource("Animation_d8qde"),
-"gun-holster_looped": SubResource("Animation_5bwsl"),
-"jump": SubResource("Animation_h07lm"),
-"jump_looped": SubResource("Animation_fbbiq"),
-"roar": SubResource("Animation_0fp7u"),
-"roar_looped": SubResource("Animation_unpp6"),
-"walk": SubResource("Animation_2qibt"),
-"walk_looped": SubResource("Animation_0son1")
+"-- Empty --": SubResource("Animation_rutl8"),
+"RESET": SubResource("Animation_rutl8"),
+"gun-grab": SubResource("Animation_i4yt4"),
+"gun-grab_looped": SubResource("Animation_chpxy"),
+"gun-holster": SubResource("Animation_7hokq"),
+"gun-holster_looped": SubResource("Animation_62e8h"),
+"jump": SubResource("Animation_gq7wq"),
+"jump_looped": SubResource("Animation_2b04f"),
+"roar": SubResource("Animation_uf8fr"),
+"roar_looped": SubResource("Animation_yb7qp"),
+"walk": SubResource("Animation_p1ylt"),
+"walk_looped": SubResource("Animation_jqy6a")
 }
 
 [sub_resource type="Animation" id="25"]
@@ -1908,7 +1908,7 @@ debug = true
 
 [node name="Spineboy Track 0" type="AnimationPlayer" parent="Spineboy/SpineAnimationTrack"]
 libraries = {
-"": SubResource("AnimationLibrary_f22jo")
+"": SubResource("AnimationLibrary_36qvh")
 }
 
 [node name="SpineAnimationTrack2" type="SpineAnimationTrack" parent="Spineboy"]
@@ -1918,7 +1918,7 @@ debug = true
 
 [node name="Spineboy Track 1" type="AnimationPlayer" parent="Spineboy/SpineAnimationTrack2"]
 libraries = {
-"": SubResource("AnimationLibrary_g0q76")
+"": SubResource("AnimationLibrary_eqm1m")
 }
 
 [node name="Raptor" type="SpineSprite" parent="."]
@@ -1935,7 +1935,7 @@ track_index = 0
 
 [node name="Raptor Track 0" type="AnimationPlayer" parent="Raptor/SpineAnimationTrack"]
 libraries = {
-"": SubResource("AnimationLibrary_ojoi5")
+"": SubResource("AnimationLibrary_g30c7")
 }
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

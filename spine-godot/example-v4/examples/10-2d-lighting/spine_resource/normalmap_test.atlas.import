@@ -1,0 +1,15 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://mrgjttgrjlve"
+path="res://.godot/imported/normalmap_test.atlas-ee69d7a8c875606e3fdebe96204ff593.spatlas"
+
+[deps]
+
+source_file="res://examples/10-2d-lighting/spine_resource/normalmap_test.atlas"
+dest_files=["res://.godot/imported/normalmap_test.atlas-ee69d7a8c875606e3fdebe96204ff593.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
