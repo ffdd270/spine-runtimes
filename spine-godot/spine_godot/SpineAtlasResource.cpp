@@ -178,7 +178,7 @@ public:
 			renderer_object->normal_map = normal_map;
 		}
 #else
-		if (ResourceLoader::exists(new_path)) {
+		if (FileAccess::exists(new_path)) {
 			import_image_resource(new_path);
 			Ref<Texture> normal_map = get_texture_from_image(new_path, is_resource);
 			normal_maps->append(normal_map);
@@ -213,6 +213,7 @@ void SpineAtlasResource::_bind_methods() {
 	ClassDB::bind_method(D_METHOD("get_source_path"), &SpineAtlasResource::get_source_path);
 	ClassDB::bind_method(D_METHOD("get_textures"), &SpineAtlasResource::get_textures);
 	ClassDB::bind_method(D_METHOD("get_normal_maps"), &SpineAtlasResource::get_normal_maps);
+	ClassDB::bind_method(D_METHOD("set_normal_texture_prefix", "prefix"), &SpineAtlasResource::set_normal_texture_prefix);
 
 	ADD_PROPERTY(PropertyInfo(Variant::STRING, "source_path"), "", "get_source_path");
 	ADD_PROPERTY(PropertyInfo(Variant::ARRAY, "textures"), "", "get_textures");
